@@ -1,0 +1,6 @@
+framework module Pods_user_ios_app9 {
+  umbrella header "Pods-user_ios_app9-umbrella.h"
+
+  export *
+  module * { export * }
+}

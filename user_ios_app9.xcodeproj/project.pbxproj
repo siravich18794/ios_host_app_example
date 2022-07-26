@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE8F3710288A6A050096BF10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F370F288A6A050096BF10 /* AppDelegate.swift */; };
+		AE8F3712288A6A050096BF10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F3711288A6A050096BF10 /* SceneDelegate.swift */; };
+		AE8F3714288A6A050096BF10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F3713288A6A050096BF10 /* ViewController.swift */; };
+		AE8F3717288A6A050096BF10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8F3715288A6A050096BF10 /* Main.storyboard */; };
+		AE8F3719288A6A060096BF10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8F3718288A6A060096BF10 /* Assets.xcassets */; };
+		AE8F371C288A6A060096BF10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8F371A288A6A060096BF10 /* LaunchScreen.storyboard */; };
+		AE8F37CE288AA81B0096BF10 /* uv.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37B6288AA81A0096BF10 /* uv.xcframework */; };
+		AE8F37CF288AA81B0096BF10 /* uv.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37B6288AA81A0096BF10 /* uv.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37D0288AA81B0096BF10 /* url_launcher_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37B7288AA81A0096BF10 /* url_launcher_ios.xcframework */; };
+		AE8F37D1288AA81B0096BF10 /* url_launcher_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37B7288AA81A0096BF10 /* url_launcher_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37D2288AA81B0096BF10 /* absl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37B8288AA81A0096BF10 /* absl.xcframework */; };
+		AE8F37D3288AA81B0096BF10 /* absl.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37B8288AA81A0096BF10 /* absl.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37D4288AA81B0096BF10 /* firebase_dynamic_links.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37B9288AA81A0096BF10 /* firebase_dynamic_links.xcframework */; };
+		AE8F37D5288AA81B0096BF10 /* firebase_dynamic_links.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37B9288AA81A0096BF10 /* firebase_dynamic_links.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37D6288AA81B0096BF10 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37BA288AA81A0096BF10 /* GoogleUtilities.xcframework */; };
+		AE8F37D7288AA81B0096BF10 /* GoogleUtilities.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37BA288AA81A0096BF10 /* GoogleUtilities.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37D8288AA81B0096BF10 /* google_maps_flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37BB288AA81A0096BF10 /* google_maps_flutter.xcframework */; };
+		AE8F37D9288AA81B0096BF10 /* google_maps_flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37BB288AA81A0096BF10 /* google_maps_flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37DA288AA81B0096BF10 /* FirebaseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37BC288AA81A0096BF10 /* FirebaseCore.xcframework */; };
+		AE8F37DB288AA81B0096BF10 /* FirebaseCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37BC288AA81A0096BF10 /* FirebaseCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37DC288AA81B0096BF10 /* FirebaseCoreDiagnostics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37BD288AA81A0096BF10 /* FirebaseCoreDiagnostics.xcframework */; };
+		AE8F37DD288AA81B0096BF10 /* FirebaseCoreDiagnostics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37BD288AA81A0096BF10 /* FirebaseCoreDiagnostics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37DE288AA81B0096BF10 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37BE288AA81A0096BF10 /* FlutterPluginRegistrant.xcframework */; };
+		AE8F37DF288AA81B0096BF10 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37BE288AA81A0096BF10 /* FlutterPluginRegistrant.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37E0288AA81B0096BF10 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37BF288AA81A0096BF10 /* Flutter.xcframework */; };
+		AE8F37E1288AA81B0096BF10 /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37BF288AA81A0096BF10 /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37E2288AA81B0096BF10 /* FirebaseDynamicLinks.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C0288AA81A0096BF10 /* FirebaseDynamicLinks.xcframework */; };
+		AE8F37E3288AA81B0096BF10 /* FirebaseDynamicLinks.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C0288AA81A0096BF10 /* FirebaseDynamicLinks.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37E4288AA81C0096BF10 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C1288AA81A0096BF10 /* nanopb.xcframework */; };
+		AE8F37E5288AA81C0096BF10 /* nanopb.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C1288AA81A0096BF10 /* nanopb.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37E6288AA81C0096BF10 /* cloud_firestore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C2288AA81A0096BF10 /* cloud_firestore.xcframework */; };
+		AE8F37E7288AA81C0096BF10 /* cloud_firestore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C2288AA81A0096BF10 /* cloud_firestore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37E8288AA81C0096BF10 /* openssl_grpc.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C3288AA81A0096BF10 /* openssl_grpc.xcframework */; };
+		AE8F37E9288AA81C0096BF10 /* openssl_grpc.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C3288AA81A0096BF10 /* openssl_grpc.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37EA288AA81C0096BF10 /* FBLPromises.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C4288AA81A0096BF10 /* FBLPromises.xcframework */; };
+		AE8F37EB288AA81C0096BF10 /* FBLPromises.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C4288AA81A0096BF10 /* FBLPromises.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37EC288AA81C0096BF10 /* firebase_core.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C5288AA81B0096BF10 /* firebase_core.xcframework */; };
+		AE8F37ED288AA81C0096BF10 /* firebase_core.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C5288AA81B0096BF10 /* firebase_core.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37EE288AA81C0096BF10 /* grpc.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C6288AA81B0096BF10 /* grpc.xcframework */; };
+		AE8F37EF288AA81C0096BF10 /* grpc.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C6288AA81B0096BF10 /* grpc.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37F0288AA81C0096BF10 /* leveldb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C7288AA81B0096BF10 /* leveldb.xcframework */; };
+		AE8F37F1288AA81C0096BF10 /* leveldb.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C7288AA81B0096BF10 /* leveldb.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37F2288AA81C0096BF10 /* FirebaseFirestore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C8288AA81B0096BF10 /* FirebaseFirestore.xcframework */; };
+		AE8F37F3288AA81C0096BF10 /* FirebaseFirestore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C8288AA81B0096BF10 /* FirebaseFirestore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37F4288AA81C0096BF10 /* GoogleDataTransport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C9288AA81B0096BF10 /* GoogleDataTransport.xcframework */; };
+		AE8F37F5288AA81C0096BF10 /* GoogleDataTransport.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37C9288AA81B0096BF10 /* GoogleDataTransport.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37F6288AA81C0096BF10 /* grpcpp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37CA288AA81B0096BF10 /* grpcpp.xcframework */; };
+		AE8F37F7288AA81D0096BF10 /* grpcpp.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37CA288AA81B0096BF10 /* grpcpp.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37F8288AA81D0096BF10 /* FirebaseCoreInternal.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37CB288AA81B0096BF10 /* FirebaseCoreInternal.xcframework */; };
+		AE8F37F9288AA81D0096BF10 /* FirebaseCoreInternal.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37CB288AA81B0096BF10 /* FirebaseCoreInternal.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37FA288AA81D0096BF10 /* permission_handler_apple.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37CC288AA81B0096BF10 /* permission_handler_apple.xcframework */; };
+		AE8F37FB288AA81D0096BF10 /* permission_handler_apple.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37CC288AA81B0096BF10 /* permission_handler_apple.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE8F37FC288AA81D0096BF10 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37CD288AA81B0096BF10 /* App.xcframework */; };
+		AE8F37FD288AA81D0096BF10 /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F37CD288AA81B0096BF10 /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C81404FFA8E1745B735969A9 /* Pods_user_ios_app9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D0E9FAD6FA3B75F83515F /* Pods_user_ios_app9.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE8F376B288A6B3E0096BF10 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AE8F37E1288AA81B0096BF10 /* Flutter.xcframework in Embed Frameworks */,
+				AE8F37D7288AA81B0096BF10 /* GoogleUtilities.xcframework in Embed Frameworks */,
+				AE8F37FB288AA81D0096BF10 /* permission_handler_apple.xcframework in Embed Frameworks */,
+				AE8F37F9288AA81D0096BF10 /* FirebaseCoreInternal.xcframework in Embed Frameworks */,
+				AE8F37F1288AA81C0096BF10 /* leveldb.xcframework in Embed Frameworks */,
+				AE8F37D3288AA81B0096BF10 /* absl.xcframework in Embed Frameworks */,
+				AE8F37E5288AA81C0096BF10 /* nanopb.xcframework in Embed Frameworks */,
+				AE8F37E9288AA81C0096BF10 /* openssl_grpc.xcframework in Embed Frameworks */,
+				AE8F37DB288AA81B0096BF10 /* FirebaseCore.xcframework in Embed Frameworks */,
+				AE8F37D9288AA81B0096BF10 /* google_maps_flutter.xcframework in Embed Frameworks */,
+				AE8F37DD288AA81B0096BF10 /* FirebaseCoreDiagnostics.xcframework in Embed Frameworks */,
+				AE8F37F3288AA81C0096BF10 /* FirebaseFirestore.xcframework in Embed Frameworks */,
+				AE8F37F5288AA81C0096BF10 /* GoogleDataTransport.xcframework in Embed Frameworks */,
+				AE8F37F7288AA81D0096BF10 /* grpcpp.xcframework in Embed Frameworks */,
+				AE8F37EF288AA81C0096BF10 /* grpc.xcframework in Embed Frameworks */,
+				AE8F37EB288AA81C0096BF10 /* FBLPromises.xcframework in Embed Frameworks */,
+				AE8F37ED288AA81C0096BF10 /* firebase_core.xcframework in Embed Frameworks */,
+				AE8F37CF288AA81B0096BF10 /* uv.xcframework in Embed Frameworks */,
+				AE8F37D5288AA81B0096BF10 /* firebase_dynamic_links.xcframework in Embed Frameworks */,
+				AE8F37DF288AA81B0096BF10 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */,
+				AE8F37D1288AA81B0096BF10 /* url_launcher_ios.xcframework in Embed Frameworks */,
+				AE8F37E3288AA81B0096BF10 /* FirebaseDynamicLinks.xcframework in Embed Frameworks */,
+				AE8F37E7288AA81C0096BF10 /* cloud_firestore.xcframework in Embed Frameworks */,
+				AE8F37FD288AA81D0096BF10 /* App.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1493307C3A51C8A87B7C3637 /* Pods-user_ios_app9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-user_ios_app9.debug.xcconfig"; path = "Target Support Files/Pods-user_ios_app9/Pods-user_ios_app9.debug.xcconfig"; sourceTree = "<group>"; };
+		2B0D0E9FAD6FA3B75F83515F /* Pods_user_ios_app9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_user_ios_app9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D895EA7AC1D3F0930C6703 /* Pods-user_ios_app9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-user_ios_app9.release.xcconfig"; path = "Target Support Files/Pods-user_ios_app9/Pods-user_ios_app9.release.xcconfig"; sourceTree = "<group>"; };
+		AE8F370C288A6A050096BF10 /* user_ios_app9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = user_ios_app9.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8F370F288A6A050096BF10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE8F3711288A6A050096BF10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE8F3713288A6A050096BF10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE8F3716288A6A050096BF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE8F3718288A6A060096BF10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE8F371B288A6A060096BF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE8F371D288A6A060096BF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8F37B6288AA81A0096BF10 /* uv.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = uv.xcframework; path = Flutter/Debug/uv.xcframework; sourceTree = "<group>"; };
+		AE8F37B7288AA81A0096BF10 /* url_launcher_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = url_launcher_ios.xcframework; path = Flutter/Debug/url_launcher_ios.xcframework; sourceTree = "<group>"; };
+		AE8F37B8288AA81A0096BF10 /* absl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = absl.xcframework; path = Flutter/Debug/absl.xcframework; sourceTree = "<group>"; };
+		AE8F37B9288AA81A0096BF10 /* firebase_dynamic_links.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = firebase_dynamic_links.xcframework; path = Flutter/Debug/firebase_dynamic_links.xcframework; sourceTree = "<group>"; };
+		AE8F37BA288AA81A0096BF10 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleUtilities.xcframework; path = Flutter/Debug/GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		AE8F37BB288AA81A0096BF10 /* google_maps_flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = google_maps_flutter.xcframework; path = Flutter/Debug/google_maps_flutter.xcframework; sourceTree = "<group>"; };
+		AE8F37BC288AA81A0096BF10 /* FirebaseCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseCore.xcframework; path = Flutter/Debug/FirebaseCore.xcframework; sourceTree = "<group>"; };
+		AE8F37BD288AA81A0096BF10 /* FirebaseCoreDiagnostics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseCoreDiagnostics.xcframework; path = Flutter/Debug/FirebaseCoreDiagnostics.xcframework; sourceTree = "<group>"; };
+		AE8F37BE288AA81A0096BF10 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = Flutter/Debug/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
+		AE8F37BF288AA81A0096BF10 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = Flutter/Debug/Flutter.xcframework; sourceTree = "<group>"; };
+		AE8F37C0288AA81A0096BF10 /* FirebaseDynamicLinks.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseDynamicLinks.xcframework; path = Flutter/Debug/FirebaseDynamicLinks.xcframework; sourceTree = "<group>"; };
+		AE8F37C1288AA81A0096BF10 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = nanopb.xcframework; path = Flutter/Debug/nanopb.xcframework; sourceTree = "<group>"; };
+		AE8F37C2288AA81A0096BF10 /* cloud_firestore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = cloud_firestore.xcframework; path = Flutter/Debug/cloud_firestore.xcframework; sourceTree = "<group>"; };
+		AE8F37C3288AA81A0096BF10 /* openssl_grpc.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = openssl_grpc.xcframework; path = Flutter/Debug/openssl_grpc.xcframework; sourceTree = "<group>"; };
+		AE8F37C4288AA81A0096BF10 /* FBLPromises.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBLPromises.xcframework; path = Flutter/Debug/FBLPromises.xcframework; sourceTree = "<group>"; };
+		AE8F37C5288AA81B0096BF10 /* firebase_core.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = firebase_core.xcframework; path = Flutter/Debug/firebase_core.xcframework; sourceTree = "<group>"; };
+		AE8F37C6288AA81B0096BF10 /* grpc.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = grpc.xcframework; path = Flutter/Debug/grpc.xcframework; sourceTree = "<group>"; };
+		AE8F37C7288AA81B0096BF10 /* leveldb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = leveldb.xcframework; path = Flutter/Debug/leveldb.xcframework; sourceTree = "<group>"; };
+		AE8F37C8288AA81B0096BF10 /* FirebaseFirestore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseFirestore.xcframework; path = Flutter/Debug/FirebaseFirestore.xcframework; sourceTree = "<group>"; };
+		AE8F37C9288AA81B0096BF10 /* GoogleDataTransport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleDataTransport.xcframework; path = Flutter/Debug/GoogleDataTransport.xcframework; sourceTree = "<group>"; };
+		AE8F37CA288AA81B0096BF10 /* grpcpp.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = grpcpp.xcframework; path = Flutter/Debug/grpcpp.xcframework; sourceTree = "<group>"; };
+		AE8F37CB288AA81B0096BF10 /* FirebaseCoreInternal.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseCoreInternal.xcframework; path = Flutter/Debug/FirebaseCoreInternal.xcframework; sourceTree = "<group>"; };
+		AE8F37CC288AA81B0096BF10 /* permission_handler_apple.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = permission_handler_apple.xcframework; path = Flutter/Debug/permission_handler_apple.xcframework; sourceTree = "<group>"; };
+		AE8F37CD288AA81B0096BF10 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = Flutter/Debug/App.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE8F3709288A6A050096BF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8F37F2288AA81C0096BF10 /* FirebaseFirestore.xcframework in Frameworks */,
+				AE8F37E2288AA81B0096BF10 /* FirebaseDynamicLinks.xcframework in Frameworks */,
+				AE8F37EE288AA81C0096BF10 /* grpc.xcframework in Frameworks */,
+				AE8F37F6288AA81C0096BF10 /* grpcpp.xcframework in Frameworks */,
+				AE8F37D0288AA81B0096BF10 /* url_launcher_ios.xcframework in Frameworks */,
+				AE8F37E0288AA81B0096BF10 /* Flutter.xcframework in Frameworks */,
+				AE8F37DC288AA81B0096BF10 /* FirebaseCoreDiagnostics.xcframework in Frameworks */,
+				AE8F37EA288AA81C0096BF10 /* FBLPromises.xcframework in Frameworks */,
+				AE8F37E4288AA81C0096BF10 /* nanopb.xcframework in Frameworks */,
+				AE8F37F8288AA81D0096BF10 /* FirebaseCoreInternal.xcframework in Frameworks */,
+				AE8F37FA288AA81D0096BF10 /* permission_handler_apple.xcframework in Frameworks */,
+				AE8F37E6288AA81C0096BF10 /* cloud_firestore.xcframework in Frameworks */,
+				AE8F37FC288AA81D0096BF10 /* App.xcframework in Frameworks */,
+				AE8F37DA288AA81B0096BF10 /* FirebaseCore.xcframework in Frameworks */,
+				AE8F37D2288AA81B0096BF10 /* absl.xcframework in Frameworks */,
+				AE8F37D8288AA81B0096BF10 /* google_maps_flutter.xcframework in Frameworks */,
+				AE8F37CE288AA81B0096BF10 /* uv.xcframework in Frameworks */,
+				C81404FFA8E1745B735969A9 /* Pods_user_ios_app9.framework in Frameworks */,
+				AE8F37D4288AA81B0096BF10 /* firebase_dynamic_links.xcframework in Frameworks */,
+				AE8F37F0288AA81C0096BF10 /* leveldb.xcframework in Frameworks */,
+				AE8F37E8288AA81C0096BF10 /* openssl_grpc.xcframework in Frameworks */,
+				AE8F37DE288AA81B0096BF10 /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				AE8F37F4288AA81C0096BF10 /* GoogleDataTransport.xcframework in Frameworks */,
+				AE8F37D6288AA81B0096BF10 /* GoogleUtilities.xcframework in Frameworks */,
+				AE8F37EC288AA81C0096BF10 /* firebase_core.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE8F3703288A6A050096BF10 = {
+			isa = PBXGroup;
+			children = (
+				AE8F370E288A6A050096BF10 /* user_ios_app9 */,
+				AE8F370D288A6A050096BF10 /* Products */,
+				F3C1339DA00F4846CABCE7C7 /* Pods */,
+				F598CB4783B335B4DF60B171 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE8F370D288A6A050096BF10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F370C288A6A050096BF10 /* user_ios_app9.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE8F370E288A6A050096BF10 /* user_ios_app9 */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F370F288A6A050096BF10 /* AppDelegate.swift */,
+				AE8F3711288A6A050096BF10 /* SceneDelegate.swift */,
+				AE8F3713288A6A050096BF10 /* ViewController.swift */,
+				AE8F3715288A6A050096BF10 /* Main.storyboard */,
+				AE8F3718288A6A060096BF10 /* Assets.xcassets */,
+				AE8F371A288A6A060096BF10 /* LaunchScreen.storyboard */,
+				AE8F371D288A6A060096BF10 /* Info.plist */,
+			);
+			path = user_ios_app9;
+			sourceTree = "<group>";
+		};
+		F3C1339DA00F4846CABCE7C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1493307C3A51C8A87B7C3637 /* Pods-user_ios_app9.debug.xcconfig */,
+				99D895EA7AC1D3F0930C6703 /* Pods-user_ios_app9.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F598CB4783B335B4DF60B171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F37B8288AA81A0096BF10 /* absl.xcframework */,
+				AE8F37CD288AA81B0096BF10 /* App.xcframework */,
+				AE8F37C2288AA81A0096BF10 /* cloud_firestore.xcframework */,
+				AE8F37C4288AA81A0096BF10 /* FBLPromises.xcframework */,
+				AE8F37C5288AA81B0096BF10 /* firebase_core.xcframework */,
+				AE8F37B9288AA81A0096BF10 /* firebase_dynamic_links.xcframework */,
+				AE8F37BC288AA81A0096BF10 /* FirebaseCore.xcframework */,
+				AE8F37BD288AA81A0096BF10 /* FirebaseCoreDiagnostics.xcframework */,
+				AE8F37CB288AA81B0096BF10 /* FirebaseCoreInternal.xcframework */,
+				AE8F37C0288AA81A0096BF10 /* FirebaseDynamicLinks.xcframework */,
+				AE8F37C8288AA81B0096BF10 /* FirebaseFirestore.xcframework */,
+				AE8F37BF288AA81A0096BF10 /* Flutter.xcframework */,
+				AE8F37BE288AA81A0096BF10 /* FlutterPluginRegistrant.xcframework */,
+				AE8F37BB288AA81A0096BF10 /* google_maps_flutter.xcframework */,
+				AE8F37C9288AA81B0096BF10 /* GoogleDataTransport.xcframework */,
+				AE8F37BA288AA81A0096BF10 /* GoogleUtilities.xcframework */,
+				AE8F37C6288AA81B0096BF10 /* grpc.xcframework */,
+				AE8F37CA288AA81B0096BF10 /* grpcpp.xcframework */,
+				AE8F37C7288AA81B0096BF10 /* leveldb.xcframework */,
+				AE8F37C1288AA81A0096BF10 /* nanopb.xcframework */,
+				AE8F37C3288AA81A0096BF10 /* openssl_grpc.xcframework */,
+				AE8F37CC288AA81B0096BF10 /* permission_handler_apple.xcframework */,
+				AE8F37B7288AA81A0096BF10 /* url_launcher_ios.xcframework */,
+				AE8F37B6288AA81A0096BF10 /* uv.xcframework */,
+				2B0D0E9FAD6FA3B75F83515F /* Pods_user_ios_app9.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE8F370B288A6A050096BF10 /* user_ios_app9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8F3720288A6A060096BF10 /* Build configuration list for PBXNativeTarget "user_ios_app9" */;
+			buildPhases = (
+				4A49708513E50B915B49AFC3 /* [CP] Check Pods Manifest.lock */,
+				AE8F3708288A6A050096BF10 /* Sources */,
+				AE8F3709288A6A050096BF10 /* Frameworks */,
+				AE8F370A288A6A050096BF10 /* Resources */,
+				EA8E472CC8B9D82602EE042F /* [CP] Copy Pods Resources */,
+				AE8F376B288A6B3E0096BF10 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = user_ios_app9;
+			productName = user_ios_app9;
+			productReference = AE8F370C288A6A050096BF10 /* user_ios_app9.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE8F3704288A6A050096BF10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AE8F370B288A6A050096BF10 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AE8F3707288A6A050096BF10 /* Build configuration list for PBXProject "user_ios_app9" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE8F3703288A6A050096BF10;
+			productRefGroup = AE8F370D288A6A050096BF10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE8F370B288A6A050096BF10 /* user_ios_app9 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE8F370A288A6A050096BF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8F371C288A6A060096BF10 /* LaunchScreen.storyboard in Resources */,
+				AE8F3719288A6A060096BF10 /* Assets.xcassets in Resources */,
+				AE8F3717288A6A050096BF10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A49708513E50B915B49AFC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-user_ios_app9-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA8E472CC8B9D82602EE042F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-user_ios_app9/Pods-user_ios_app9-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-user_ios_app9/Pods-user_ios_app9-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-user_ios_app9/Pods-user_ios_app9-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE8F3708288A6A050096BF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8F3714288A6A050096BF10 /* ViewController.swift in Sources */,
+				AE8F3710288A6A050096BF10 /* AppDelegate.swift in Sources */,
+				AE8F3712288A6A050096BF10 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE8F3715288A6A050096BF10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE8F3716288A6A050096BF10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE8F371A288A6A060096BF10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE8F371B288A6A060096BF10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE8F371E288A6A060096BF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE8F371F288A6A060096BF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE8F3721288A6A060096BF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1493307C3A51C8A87B7C3637 /* Pods-user_ios_app9.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XDT45U8DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = user_ios_app9/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SCBAbacus.user-ios-app9";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE8F3722288A6A060096BF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D895EA7AC1D3F0930C6703 /* Pods-user_ios_app9.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XDT45U8DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = user_ios_app9/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SCBAbacus.user-ios-app9";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE8F3707288A6A050096BF10 /* Build configuration list for PBXProject "user_ios_app9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8F371E288A6A060096BF10 /* Debug */,
+				AE8F371F288A6A060096BF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE8F3720288A6A060096BF10 /* Build configuration list for PBXNativeTarget "user_ios_app9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8F3721288A6A060096BF10 /* Debug */,
+				AE8F3722288A6A060096BF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE8F3704288A6A050096BF10 /* Project object */;
+}
